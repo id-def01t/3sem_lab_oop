@@ -19,8 +19,9 @@ int main() {
 		number3 = number1 - number2;
 		std::cout << number1 << " - " << number2 << " = " << number3 << std::endl;
 		// 8
+		//ответ на рецензию if (number1 == number2) ...
 		if (number1 == number2)
-			std::cout << number1 << " = " << number2 << std::endl;
+		std::cout << number1 << " = " << number2 << std::endl;
 		else if (number1 > number2)
 			std::cout << number1 << " > " << number2 << std::endl;
 		else
